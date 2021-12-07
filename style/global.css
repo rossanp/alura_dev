@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --background-color: #051D3B;
+    --btn-highlight: rgba(80, 129, 251, 0.08);
+    --btn-save: #5081FB;
+}
+
+body {
+    background-color: var(--background-color);
+    padding: 16px;
+}
