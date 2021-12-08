@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
 
     <meta charset="UTF-8">
@@ -9,7 +10,9 @@
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Roboto+Mono:wght@400;600;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Roboto+Mono:wght@400;600;700&display=swap"
+        rel="stylesheet">
 
     <!-- styles -->
     <link rel="stylesheet" href="./style/global.css">
@@ -30,24 +33,40 @@
     <title>Alura Dev</title>
 
 </head>
+
 <body>
-    
+
     <header>
         <div class="logo">
             <img src="./img/Logo.svg" alt="Logo Alura Dev">
         </div>
         <div class="search">
             <img class="title-img" src="./img/Search.svg" alt="Ícone para pesquisa">
-            <img class="description-search" src="./img/Menu hamburguer.svg" alt="Menu">
+            <input type="checkbox" id="esconder" style="display: none;">
+            <label for="esconder">
+                <img class="description-search" src="./img/Menu hamburguer.svg" alt="Menu">
+            </label>
         </div>
-        <div class="menu-hamburguer" style="display: none;">
-            <div class="menu"></div>
+        <div class="menu-hamburguer" style="display: grid;">
+            <div class="menu">
+                <div class="editor">
+                    <img src="./img/Editor.svg" alt="Editor de código">
+                    <a href="#">Edito de código</a>
+                    <img src="./img/Comunidade.svg" alt="Comunidade">
+                    <a href="#">Comunidade</a>
+                </div>
+            </div>
             <hr>
-            <div class="user"></div>
+            <div class="user">
+                <a href="#">
+                    <img src="" alt="">
+                    <p>Rossan</p>
+                </a>
+            </div>
         </div>
     </header>
 
-    <section class="fundo-codigo">
+    <!-- <section class="fundo-codigo">
             <div class="container-cod">
                 <div class="circles">
                     <div class="circle1"></div>
@@ -85,7 +104,8 @@
             </section>
             <button type="submit" class="btn-save">Salvar Projeto</button>
         </form>
-    </section>
+    </section> -->
 
 </body>
+
 </html>
