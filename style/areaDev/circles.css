@@ -1,0 +1,23 @@
+.circles {
+    display: flex;
+}
+
+.circle1, .circle2, .circle3 {
+    width: 12px;
+    height: 12px;
+
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.circle1 {
+    background-color: var(--circle1);
+}
+
+.circle2 {
+    background-color: var(--circle2);
+}
+
+.circle3 {
+    background-color: var(--circle3);
+}

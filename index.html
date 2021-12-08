@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,8 +9,13 @@
     <!-- styles -->
     <link rel="stylesheet" href="./style/global.css">
     <link rel="stylesheet" href="./style/header/header.css">
+    <link rel="stylesheet" href="./style/areaDev/fundoCodigo.css">
+    <link rel="stylesheet" href="./style/areaDev/containerCod.css">
+    <link rel="stylesheet" href="./style/areaDev/areaDev.css">
+    <link rel="stylesheet" href="./style/areaDev/circles.css">
 
     <title>Alura Dev</title>
+
 </head>
 <body>
     
@@ -19,13 +25,29 @@
         </div>
         <div class="search">
             <img src="./img/Search.svg" alt="Ícone para pesquisa">
+            <img src="./img/Menu hamburguer.svg" alt="Menu">
         </div>
-        <div class="menu-hamburguer">
+        <div class="menu-hamburguer" style="display: none;">
             <div class="menu"></div>
             <hr>
             <div class="user"></div>
         </div>
     </header>
+
+    <section>
+        <div class="fundo-codigo">
+            <div class="container-cod">
+                <div class="circles">
+                    <div class="circle1"></div>
+                    <div class="circle2"></div>
+                    <div class="circle3"></div>
+                </div>
+                <div class="inpt-dev">
+                    <textarea spellcheck="false" focus="false"></textarea>
+                </div>
+            </div>
+        </div>
+    </section>
 
 </body>
 </html>

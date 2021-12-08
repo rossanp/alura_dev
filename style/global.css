@@ -8,6 +8,12 @@
     --background-color: #051D3B;
     --btn-highlight: rgba(80, 129, 251, 0.08);
     --btn-save: #5081FB;
+    --azul-claro: #6BD1FF;
+    --input-cod: #000000;
+    --circle1: #FF5F56;
+    --circle2: #FFBD2E;
+    --circle3: #27C93F;
+    --text-cod: #FFFFFF;
 }
 
 body {

@@ -1,0 +1,10 @@
+.inpt-dev textarea {
+    background-color: var(--input-cod);
+    color: var(--text-cod);
+    border: none;
+    margin-top: 24px;
+
+    width: 100%;
+    height: 250px;
+    resize: none;
+}

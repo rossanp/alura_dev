@@ -1,0 +1,6 @@
+.fundo-codigo {
+    padding: 32px;
+    background-color: var(--azul-claro);
+    border-radius: 16px;
+    margin-top: 40px;
+}
