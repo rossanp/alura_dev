@@ -19,6 +19,8 @@
     <link rel="stylesheet" href="./style/data/description.css">
     <link rel="stylesheet" href="./style/setting/setting.css">
     <link rel="stylesheet" href="./style/setting/select.css">
+    <link rel="stylesheet" href="./style/setting/btnCor.css">
+    <link rel="stylesheet" href="./style/setting/btnSave.css">
 
     <title>Alura Dev</title>
 
@@ -57,19 +59,27 @@
         <button class="btn-highlight">Visualizar com o highlight</button>
     </section>
     
-    <section class="data">
-        <p>Seu projeto</p>
-        <input class="title-data" type="text" placeholder="Nome do seu projeto">
-        <input class="description-data" type="text" placeholder="Descrição do seu projeto">
-    </section>
-
-    <section class="setting">
-        <p>Personalização</p>
-        <select>
-            <option value="javascript">JavaScript</option>
-            <option value="html">HTML</option>
-            <option value="css">CSS</option>
-        </select>
+    <section class="projeto">
+        <form action="">
+            <section class="data">
+                <p>Seu projeto</p>
+                <input class="title-data" type="text" placeholder="Nome do seu projeto">
+                <input class="description-data" type="text" placeholder="Descrição do seu projeto">
+            </section>
+        
+            <section class="setting">
+                <p>Personalização</p>
+                <select>
+                    <option value="javascript">JavaScript</option>
+                    <option value="html">HTML</option>
+                    <option value="css">CSS</option>
+                </select>
+                <div class="borda-botao">
+                    <button></button>
+                </div>
+            </section>
+            <button type="submit" class="btn-save">Salvar Projeto</button>
+        </form>
     </section>
 
 </body>

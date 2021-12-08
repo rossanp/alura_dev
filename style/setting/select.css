@@ -11,10 +11,8 @@
     height: 56px;
     width: 100%;
     max-width: 343px;
+}
 
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;       /* Remove default arrow */
-    background-image: url(../../img/Arrow.svg);   /* Add custom arrow */
-    background-repeat: no-repeat;
+.setting option {
+    color: black;
 }

@@ -1,0 +1,20 @@
+.borda-botao {
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    padding: 8px;
+
+    width: 100%;
+    max-width: 343px;
+    height: 56px;
+
+    margin: 16px 0 32px;
+}
+
+.borda-botao button {
+    background-color: var(--azul-claro);
+    border: none;
+    border-radius: 8px;
+
+    width: 100%;
+    height: 100%;
+}

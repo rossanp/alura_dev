@@ -1,0 +1,13 @@
+.btn-save {
+    background-color: var(--btn-save);
+    color: black;
+    font-size: 1rem;
+    margin-bottom: 40px;
+
+    border: none;
+    border-radius: 8px;
+
+    width: 100%;
+    max-width: 343px;
+    height: 56px;
+}
