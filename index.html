@@ -13,6 +13,10 @@
     <link rel="stylesheet" href="./style/areaDev/containerCod.css">
     <link rel="stylesheet" href="./style/areaDev/areaDev.css">
     <link rel="stylesheet" href="./style/areaDev/circles.css">
+    <link rel="stylesheet" href="./style/buttons/btnHighlight.css">
+    <link rel="stylesheet" href="./style/data/data.css">
+    <link rel="stylesheet" href="./style/data/title.css">
+    <link rel="stylesheet" href="./style/data/description.css">
 
     <title>Alura Dev</title>
 
@@ -24,8 +28,8 @@
             <img src="./img/Logo.svg" alt="Logo Alura Dev">
         </div>
         <div class="search">
-            <img src="./img/Search.svg" alt="Ícone para pesquisa">
-            <img src="./img/Menu hamburguer.svg" alt="Menu">
+            <img class="title-img" src="./img/Search.svg" alt="Ícone para pesquisa">
+            <img class="description-search" src="./img/Menu hamburguer.svg" alt="Menu">
         </div>
         <div class="menu-hamburguer" style="display: none;">
             <div class="menu"></div>
@@ -34,8 +38,7 @@
         </div>
     </header>
 
-    <section>
-        <div class="fundo-codigo">
+    <section class="fundo-codigo">
             <div class="container-cod">
                 <div class="circles">
                     <div class="circle1"></div>
@@ -43,10 +46,28 @@
                     <div class="circle3"></div>
                 </div>
                 <div class="inpt-dev">
-                    <textarea spellcheck="false" focus="false"></textarea>
+                    <textarea spellcheck="false"></textarea>
                 </div>
             </div>
-        </div>
+    </section>
+
+    <section>
+        <button class="btn-highlight">Visualizar com o highlight</button>
+    </section>
+    
+    <section class="data">
+        <p>Seu projeto</p>
+        <input class="title-data" type="text" placeholder="Nome do seu projeto">
+        <input class="description-data" type="text" placeholder="Descrição do seu projeto">
+    </section>
+
+    <section class="setting">
+        <p>Personalização</p>
+        <select>
+            <option value="javascript">JavaScript</option>
+            <option value="html">HTML</option>
+            <option value="css">CSS</option>
+        </select>
     </section>
 
 </body>

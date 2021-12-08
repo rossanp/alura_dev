@@ -1,0 +1,13 @@
+.btn-highlight {
+    width: 100%;
+    font-size: 1rem;
+    color: var(--text);
+    background-color: rgba(80, 129, 251, 0.08);
+
+    border: none;
+    border-radius: 8px;
+
+    width: 343px;
+    height: 56px;
+    margin-bottom: 40px;
+}
