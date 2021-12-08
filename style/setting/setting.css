@@ -1,0 +1,8 @@
+.setting p {
+    color: var(--text);
+    font-size: 0.8rem;
+    letter-spacing: 0.4em;
+    text-transform: uppercase;
+
+    margin-bottom: 16px;
+}

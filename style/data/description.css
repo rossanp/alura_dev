@@ -5,6 +5,8 @@
     padding-left: 14px;
     margin: 16px 0 40px;
 
+    color: var(--text);
+
     height: 80px;
     width: 100%;
     max-width: 343px;
