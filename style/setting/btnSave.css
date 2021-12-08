@@ -1,5 +1,7 @@
 .btn-save {
     background-color: var(--btn-save);
+    font-family: var(--inter);
+    font-weight: var(--fontPeso);
     color: black;
     font-size: 1rem;
     margin-bottom: 40px;

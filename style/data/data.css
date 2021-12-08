@@ -1,5 +1,7 @@
 .data p {
     color: var(--text);
+    font-family: var(--inter);
+    font-weight: var(--fontPeso);
     font-size: 0.8rem;
     letter-spacing: 0.4em;
     text-transform: uppercase;

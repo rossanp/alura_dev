@@ -14,6 +14,9 @@
     --circle2: #FFBD2E;
     --circle3: #27C93F;
     --text: #FFFFFF;
+    --inter: 'Inter', 'sans-serif';
+    --robotoMono: 'Roboto Mono', 'monospace';
+    --fontPeso: 400,
 }
 
 body {

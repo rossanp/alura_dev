@@ -1,6 +1,8 @@
 .inpt-dev textarea {
     background-color: var(--input-cod);
     color: var(--text);
+    font-family: var(--robotoMono);
+    font-weight: var(--fontPeso);
     border: none;
     margin-top: 24px;
 
