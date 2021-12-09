@@ -4,14 +4,24 @@
     width: 100%;
 }
 
+.user a {
+    display: flex;
+    align-items: center;
+}
+
 .user img {
     width: 32px;
     height: 32px;
 
     border-radius: 50%;
+    margin-right: 8px;
 }
 
 .user p {
     height: 100%;
     width: 100%;
+    
+    color: var(--text);
+    font-family: var(--inter);
+    font-weight: var(--fontPeso);
 }

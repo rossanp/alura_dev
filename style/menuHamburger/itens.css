@@ -4,7 +4,7 @@
     height: 100%;
 }
 
-.itens div {
+.itens a {
     display: flex;
     align-items: center;
 
@@ -16,9 +16,13 @@
     margin-right: 16px;
 }
 
-.itens a:active {
+.itens a p {
     color: var(--text);
     font-family: var(--inter);
     font-weight: var(--fontPeso);
     font-size: 0.9rem;
+}
+
+.comunidade a p {
+    opacity: 0.56;
 }
