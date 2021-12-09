@@ -1,0 +1,17 @@
+.user a {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.user img {
+    width: 32px;
+    height: 32px;
+
+    border-radius: 50%;
+}
+
+.user p {
+    height: 100%;
+    width: 100%;
+}

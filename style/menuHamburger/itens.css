@@ -1,0 +1,16 @@
+.itens {
+    display: grid;
+
+    height: 100%;
+}
+
+.itens div {
+    display: flex;
+    align-items: center;
+
+    margin-bottom: 16px;
+}
+
+.itens div img {
+    width: 48px;
+}
