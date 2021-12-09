@@ -11,6 +11,14 @@
     margin-bottom: 16px;
 }
 
-.itens div img {
+.itens img {
     width: 48px;
+    margin-right: 16px;
+}
+
+.itens a:active {
+    color: var(--text);
+    font-family: var(--inter);
+    font-weight: var(--fontPeso);
+    font-size: 0.9rem;
 }
