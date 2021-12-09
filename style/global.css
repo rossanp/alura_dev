@@ -16,7 +16,8 @@
     --text: #FFFFFF;
     --inter: 'Inter', 'sans-serif';
     --robotoMono: 'Roboto Mono', 'monospace';
-    --fontPeso: 400,
+    --fontPeso: 400;
+    --menu-hamburger: #2D415B;
 }
 
 body {
