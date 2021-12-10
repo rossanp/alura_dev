@@ -11,5 +11,7 @@
 
     height: 56px;
     width: 100%;
-    max-width: 343px;
+    max-width: 704px;
+    display: flex;
+    justify-content: center;
 }
