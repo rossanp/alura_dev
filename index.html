@@ -17,6 +17,7 @@
     <!-- styles -->
     <link rel="stylesheet" href="./style/global.css">
     <link rel="stylesheet" href="./style/header/header.css">
+    <link rel="stylesheet" href="./style/header/search.css">
     <link rel="stylesheet" href="./style/areaDev/fundoCodigo.css">
     <link rel="stylesheet" href="./style/areaDev/containerCod.css">
     <link rel="stylesheet" href="./style/areaDev/areaDev.css">
@@ -45,6 +46,7 @@
         </div>
         <div class="search">
             <img class="title-img" src="./img/Search.svg" alt="Ícone para pesquisa">
+            <input class="search" type="search" id="search">
             <input type="checkbox" id="esconder" style="display: none;">
             <label for="esconder">
                 <img class="description-hamburger" src="./img/Menu hamburguer.svg" alt="Menu">
@@ -106,13 +108,15 @@
         
             <section class="setting">
                 <p>Personalização</p>
-                <select>
-                    <option value="javascript">JavaScript</option>
-                    <option value="html">HTML</option>
-                    <option value="css">CSS</option>
-                </select>
-                <div class="borda-botao">
-                    <button></button>
+                <div>
+                    <select>
+                        <option value="javascript">JavaScript</option>
+                        <option value="html">HTML</option>
+                        <option value="css">CSS</option>
+                    </select>
+                    <div class="borda-botao">
+                        <button></button>
+                    </div>
                 </div>
             </section>
             <button type="submit" class="btn-save">Salvar Projeto</button>
