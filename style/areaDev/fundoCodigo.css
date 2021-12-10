@@ -3,4 +3,12 @@
     background-color: var(--azul-claro);
     border-radius: 8px;
     margin: 40px 0 32px;
+
+    max-width: 722px;
+}
+
+@media screen and ( min-width: 786px ) {
+    .fundo-codigo {
+        margin: 40px auto 32px;
+    }
 }

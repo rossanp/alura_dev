@@ -23,13 +23,14 @@
     <link rel="stylesheet" href="./style/areaDev/areaDev.css">
     <link rel="stylesheet" href="./style/areaDev/circles.css">
     <link rel="stylesheet" href="./style/buttons/btnHighlight.css">
-    <link rel="stylesheet" href="./style/data/data.css">
-    <link rel="stylesheet" href="./style/data/title.css">
-    <link rel="stylesheet" href="./style/data/description.css">
-    <link rel="stylesheet" href="./style/setting/setting.css">
-    <link rel="stylesheet" href="./style/setting/select.css">
-    <link rel="stylesheet" href="./style/setting/btnCor.css">
-    <link rel="stylesheet" href="./style/setting/btnSave.css">
+    <link rel="stylesheet" href="./style/dadosProjeto/projeto.css">
+    <link rel="stylesheet" href="./style/dadosProjeto/data/data.css">
+    <link rel="stylesheet" href="./style/dadosProjeto/data/title.css">
+    <link rel="stylesheet" href="./style/dadosProjeto/data/description.css">
+    <link rel="stylesheet" href="./style/dadosProjeto/setting/setting.css">
+    <link rel="stylesheet" href="./style/dadosProjeto/setting/select.css">
+    <link rel="stylesheet" href="./style/dadosProjeto/setting/btnCor.css">
+    <link rel="stylesheet" href="./style/dadosProjeto/setting/btnSave.css">
     <link rel="stylesheet" href="./style/menuHamburger/menu.css">
     <link rel="stylesheet" href="./style/menuHamburger/itens.css">
     <link rel="stylesheet" href="./style/menuHamburger/user.css">
@@ -97,30 +98,32 @@
     </section>
     
     <section class="projeto">
-        <form action="">
-            <section class="data">
-                <p>Seu projeto</p>
-                <div>
-                    <input class="title-data" type="text" placeholder="Nome do seu projeto">
-                    <input class="description-data" type="text" placeholder="Descrição do seu projeto">
-                </div>
-            </section>
-        
-            <section class="setting">
-                <p>Personalização</p>
-                <div>
-                    <select>
-                        <option value="javascript">JavaScript</option>
-                        <option value="html">HTML</option>
-                        <option value="css">CSS</option>
-                    </select>
-                    <div class="borda-botao">
-                        <button></button>
+        <div>
+            <form action="">
+                <section class="data">
+                    <p>Seu projeto</p>
+                    <div>
+                        <input class="title-data" type="text" placeholder="Nome do seu projeto">
+                        <input class="description-data" type="text" placeholder="Descrição do seu projeto">
                     </div>
-                </div>
-            </section>
-            <button type="submit" class="btn-save">Salvar Projeto</button>
-        </form>
+                </section>
+            
+                <section class="setting">
+                    <p>Personalização</p>
+                    <div>
+                        <select>
+                            <option value="javascript">JavaScript</option>
+                            <option value="html">HTML</option>
+                            <option value="css">CSS</option>
+                        </select>
+                        <div class="borda-botao">
+                            <button></button>
+                        </div>
+                    </div>
+                </section>
+                <button type="submit" class="btn-save">Salvar Projeto</button>
+            </form>
+        </div>
     </section>
 
     <!-- Scripts -->
