@@ -45,7 +45,7 @@
         </div>
         <div class="search">
             <img class="title-img" src="./img/Search.svg" alt="Ícone para pesquisa">
-            <input type="checkbox" id="esconder" >
+            <input type="checkbox" id="esconder" style="display: none;">
             <label for="esconder">
                 <img class="description-hamburger" src="./img/Menu hamburguer.svg" alt="Menu">
             </label>
@@ -90,7 +90,7 @@
             </div>
     </section>
 
-    <section>
+    <section class="highlight">
         <button class="btn-highlight">Visualizar com o highlight</button>
     </section>
     
@@ -98,8 +98,10 @@
         <form action="">
             <section class="data">
                 <p>Seu projeto</p>
-                <input class="title-data" type="text" placeholder="Nome do seu projeto">
-                <input class="description-data" type="text" placeholder="Descrição do seu projeto">
+                <div>
+                    <input class="title-data" type="text" placeholder="Nome do seu projeto">
+                    <input class="description-data" type="text" placeholder="Descrição do seu projeto">
+                </div>
             </section>
         
             <section class="setting">
