@@ -1,3 +1,8 @@
+.highlight {
+    display: flex;
+    justify-content: center;
+}
+
 .btn-highlight {
     width: 100%;
     font-size: 1rem;
@@ -9,7 +14,7 @@
     border: none;
     border-radius: 8px;
 
-    width: 343px;
+    max-width: 704px;
     height: 56px;
     margin-bottom: 40px;
 }
