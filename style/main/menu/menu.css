@@ -1,0 +1,43 @@
+.main__menu {
+    display: none;
+}
+
+@media screen and ( min-width: 1200px ) {
+    .main__menu {
+        margin-top: 40px;
+        display: block;
+    }
+
+    .main__menu > p {
+        text-transform: uppercase;
+        font-family: var(--inter);
+        color: var(--text);
+        font-size: 0.8rem;
+        font-weight: var(--fontPeso);
+        letter-spacing: 0.4em;
+
+        margin-bottom: 14px;
+    }
+
+    .main__editor a, .main__comunidade a {
+        display: flex;
+        align-items: center;
+
+        margin-bottom: 16px;
+    }
+
+    .main__editor img, .main__comunidade img {
+        width: 48px;
+        height: 48px;
+
+        margin-right: 16px;
+    }
+
+    .main__editor p, .main__comunidade p {
+        font-family: var(--inter);
+        color: var(--text);
+        font-size: 1rem;
+        font-weight: var(--fontPeso);
+        line-height: 24px;
+    }
+}

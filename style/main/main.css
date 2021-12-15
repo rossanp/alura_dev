@@ -1,0 +1,22 @@
+@media screen and ( min-width: 1200px ) {
+    main {
+        display: grid;
+    
+        grid-template-columns: 20% 60% 20%;
+    }
+
+    .menu {
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+
+    .edit {
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+
+    .edit-project {
+        grid-column-start: 3;
+        grid-column-end: 4;
+    }
+}

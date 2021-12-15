@@ -18,22 +18,25 @@
     <link rel="stylesheet" href="./style/global.css">
     <link rel="stylesheet" href="./style/header/header.css">
     <link rel="stylesheet" href="./style/header/search.css">
-    <link rel="stylesheet" href="./style/areaDev/fundoCodigo.css">
-    <link rel="stylesheet" href="./style/areaDev/containerCod.css">
-    <link rel="stylesheet" href="./style/areaDev/areaDev.css">
-    <link rel="stylesheet" href="./style/areaDev/circles.css">
-    <link rel="stylesheet" href="./style/buttons/btnHighlight.css">
-    <link rel="stylesheet" href="./style/dadosProjeto/projeto.css">
-    <link rel="stylesheet" href="./style/dadosProjeto/data/data.css">
-    <link rel="stylesheet" href="./style/dadosProjeto/data/title.css">
-    <link rel="stylesheet" href="./style/dadosProjeto/data/description.css">
-    <link rel="stylesheet" href="./style/dadosProjeto/setting/setting.css">
-    <link rel="stylesheet" href="./style/dadosProjeto/setting/select.css">
-    <link rel="stylesheet" href="./style/dadosProjeto/setting/btnCor.css">
-    <link rel="stylesheet" href="./style/dadosProjeto/setting/btnSave.css">
-    <link rel="stylesheet" href="./style/menuHamburger/menu.css">
-    <link rel="stylesheet" href="./style/menuHamburger/itens.css">
-    <link rel="stylesheet" href="./style/menuHamburger/user.css">
+    <link rel="stylesheet" href="./style/header/user.css">
+    <link rel="stylesheet" href="./style/header/menuHamburger/menu.css">
+    <link rel="stylesheet" href="./style/header/menuHamburger/itens.css">
+    <link rel="stylesheet" href="./style/header/menuHamburger/user.css">
+    <link rel="stylesheet" href="./style/main/main.css">
+    <link rel="stylesheet" href="./style/main/menu/menu.css">
+    <link rel="stylesheet" href="./style/main/areaDev/fundoCodigo.css">
+    <link rel="stylesheet" href="./style/main/areaDev/containerCod.css">
+    <link rel="stylesheet" href="./style/main/areaDev/areaDev.css">
+    <link rel="stylesheet" href="./style/main/areaDev/circles.css">
+    <link rel="stylesheet" href="./style/main/buttons/btnHighlight.css">
+    <link rel="stylesheet" href="./style/main/dadosProjeto/projeto.css">
+    <link rel="stylesheet" href="./style/main/dadosProjeto/data/data.css">
+    <link rel="stylesheet" href="./style/main/dadosProjeto/data/title.css">
+    <link rel="stylesheet" href="./style/main/dadosProjeto/data/description.css">
+    <link rel="stylesheet" href="./style/main/dadosProjeto/setting/setting.css">
+    <link rel="stylesheet" href="./style/main/dadosProjeto/setting/select.css">
+    <link rel="stylesheet" href="./style/main/dadosProjeto/setting/btnCor.css">
+    <link rel="stylesheet" href="./style/main/dadosProjeto/setting/btnSave.css">
 
     <title>Alura Dev</title>
 
@@ -42,17 +45,30 @@
 <body>
 
     <header>
+        <!-- Logo -->
         <div class="logo">
             <img src="./img/Logo.svg" alt="Logo Alura Dev">
         </div>
+
+        <!-- Área de pesquisa -->
         <div class="search-container">
             <img class="title-img" src="./img/Search.svg" alt="Ícone para pesquisa">
             <input type="search" class="search" id="search" placeholder="Busque por algo">
+
+            <!-- Área para checkbox controlar menu hamburguer -->
             <input type="checkbox" id="esconder" style="display: none;">
             <label for="esconder">
                 <img class="description-hamburger" src="./img/Menu hamburguer.svg" alt="Menu">
             </label>
         </div>
+
+        <!-- Área usuário -->
+        <div class="container-user">
+            <img src="https://loremflickr.com/g/320/240/paris,girl/all" alt="Foto usuário">
+            <p>Harry</p>
+        </div>
+        
+        <!-- Menu hamburguer para telas menores -->
         <div id="menu-hamburguer" class="menu-hamburguer">
             <div class="menu">
                 <div class="itens">
@@ -78,53 +94,84 @@
                 </a>
             </div>
         </div>
+
     </header>
 
-    <section class="fundo-codigo">
-            <div class="container-cod">
-                <div class="circles">
-                    <div class="circle1"></div>
-                    <div class="circle2"></div>
-                    <div class="circle3"></div>
+    <main>
+        
+        <!-- Área menu para telas grandes -->
+        <div class="main__menu">
+            <p>Menu</p>
+            <div class="main__itens">
+                <div class="main__editor">
+                    <a href="./index.html">
+                        <img src="./img/Editor.svg" alt="Editor de código">
+                        <p>Editor de código</p>
+                    </a>
                 </div>
-                <div class="inpt-dev">
-                    <textarea spellcheck="false"></textarea>
+                <div class="main__comunidade">
+                    <a href="./index.html">
+                        <img src="./img/Comunidade.svg" alt="Comunidade">
+                        <p>Comunidade</p>
+                    </a>
                 </div>
             </div>
-    </section>
-
-    <section class="highlight">
-        <button class="btn-highlight">Visualizar com o highlight</button>
-    </section>
-    
-    <section class="projeto">
-        <div>
-            <form action="">
-                <section class="data">
-                    <p>Seu projeto</p>
-                    <div>
-                        <input class="title-data" type="text" placeholder="Nome do seu projeto">
-                        <input class="description-data" type="text" placeholder="Descrição do seu projeto">
-                    </div>
-                </section>
+        </div>
+        
+        <div class="edit">
             
-                <section class="setting">
-                    <p>Personalização</p>
-                    <div>
-                        <select>
-                            <option value="javascript">JavaScript</option>
-                            <option value="html">HTML</option>
-                            <option value="css">CSS</option>
-                        </select>
-                        <div class="borda-botao">
-                            <button></button>
+            <!-- Tela para digitar o código -->
+            <section class="fundo-codigo">
+                    <div class="container-cod">
+                        <div class="circles">
+                            <div class="circle1"></div>
+                            <div class="circle2"></div>
+                            <div class="circle3"></div>
+                        </div>
+                        <div class="inpt-dev">
+                            <textarea spellcheck="false"></textarea>
                         </div>
                     </div>
-                </section>
-                <button type="submit" class="btn-save">Salvar Projeto</button>
-            </form>
+            </section>
+    
+        <section class="highlight">
+            <button class="btn-highlight">Visualizar com o highlight</button>
+        </section>
+
         </div>
-    </section>
+        
+        <div class="edit-project">
+            <section class="projeto">
+                <div>
+                    <form action="">
+                        <section class="data">
+                            <p>Seu projeto</p>
+                            <div>
+                                <input class="title-data" type="text" placeholder="Nome do seu projeto">
+                                <input class="description-data" type="text" placeholder="Descrição do seu projeto">
+                            </div>
+                        </section>
+                    
+                        <section class="setting">
+                            <p>Personalização</p>
+                            <div>
+                                <select>
+                                    <option value="javascript">JavaScript</option>
+                                    <option value="html">HTML</option>
+                                    <option value="css">CSS</option>
+                                </select>
+                                <div class="borda-botao">
+                                    <button></button>
+                                </div>
+                            </div>
+                        </section>
+                        <button type="submit" class="btn-save">Salvar Projeto</button>
+                    </form>
+                </div>
+            </section>
+        </div>
+
+    </main>
 
     <!-- Scripts -->
     <script src="./scripts/menuHamburger.js"></script>
