@@ -1,20 +1,12 @@
+.edit {
+        padding: 40px 40px 32px;
+    }
+
 .fundo-codigo {
     padding: 32px;
     background-color: var(--azul-claro);
     border-radius: 8px;
-    margin: 40px 0 32px;
+    margin-bottom: 32px;
 
     max-width: 752px;
-}
-
-@media screen and ( min-width: 786px ) {
-    .fundo-codigo {
-        margin: 40px auto 32px;
-    }
-}
-
-@media screen and ( min-width: 1200px ) {
-    .edit {
-        padding: 40px auto 32px;
-    }
 }
