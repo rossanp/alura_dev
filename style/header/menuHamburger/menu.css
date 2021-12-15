@@ -17,3 +17,9 @@
 hr {
     margin: 8px 0 24px 0;
 }
+
+@media screen and ( min-width: 1200px ) {
+    label {
+        display: none;
+    }
+}

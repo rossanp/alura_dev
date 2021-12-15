@@ -1,0 +1,26 @@
+.container-user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-user img {
+    margin: 12px 8px 12px 12px;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.container-user p {
+    margin: 12px 12px 12px 8px;
+    font-size: 1rem;
+    font-family: var(--inter);
+    color: var(--text);
+    font-size: var(--fontPeso);
+}
+
+@media screen and ( max-width: 1200px) {
+    .container-user {
+        display: none;
+    }
+}
