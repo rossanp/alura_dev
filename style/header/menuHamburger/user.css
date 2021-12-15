@@ -25,3 +25,10 @@
     font-family: var(--inter);
     font-weight: var(--fontPeso);
 }
+
+@media screen and ( min-width: 1200px ) {
+    .container-user {
+        display: flex;
+        height: 56px;
+    }
+}
