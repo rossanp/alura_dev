@@ -1,8 +1,4 @@
 header {
-    /* display: flex;
-    justify-content: space-between;
-    align-items: center; */
-
     height: 56px;
 }
 
@@ -16,6 +12,14 @@ header {
 .logo {
     grid-column-start: 1;
     grid-column-end: 2;
+    
+    height: 56px;
+    display: grid;
+    align-items: center;
+}
+
+.logo img {
+    width: 100%;
 }
 
 .search-container {
@@ -27,14 +31,17 @@ header {
     grid-column-start: 3;
     grid-column-end: 4;
 
+    height: 56px;
+
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
 
-/* .container-user {
-    grid-column-start: 3;
-    grid-column-end: 4;
-} */
-
-@media screen and ( min-width: 1200px ) {
+@media screen and ( max-width: 460px ) {
+    .header {
+        display: grid;
     
+        grid-template-columns: 45% 40% 15%;
+    }
 }
