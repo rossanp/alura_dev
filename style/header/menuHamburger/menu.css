@@ -1,16 +1,16 @@
 .menu-hamburguer {
     position: absolute;
-    top: 85px;
+    /* top: 85px; */
     right: 16px;
     display: none;
     padding: 24px;
-    margin-bottom: 40px;
+    margin-top: 80px;
 
     border-radius: 8px;
     background-color: var(--menu-hamburger);
 
     width: 254px;
-    height: 571px;
+    height: calc(100vh - 115px); /* calculo baseado no vh - 112px (80px (margin top) - 32px (padding body)) */
 
 }
 

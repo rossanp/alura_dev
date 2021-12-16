@@ -26,3 +26,10 @@
         display: block;
     }
 }
+
+@media screen and ( min-width: 1200px ) {
+    .search-container {    
+        display: flex;
+        justify-content: center;
+    }
+}
