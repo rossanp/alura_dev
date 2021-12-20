@@ -15,6 +15,7 @@
         rel="stylesheet">
 
     <!-- styles -->
+    <link rel="stylesheet" href="style/dracula.css"> <!-- Tema Highlight -->
     <link rel="stylesheet" href="./style/global.css">
     <link rel="stylesheet" href="./style/header/header.css">
     <link rel="stylesheet" href="./style/header/search.css">
@@ -84,7 +85,7 @@
                             </a>
                         </div>
                         <div class="comunidade">
-                            <a href="./index.html">
+                            <a href="./cards.html">
                                 <img src="./img/Comunidade.svg" alt="Comunidade">
                                 <p>Comunidade</p>
                             </a>
@@ -137,7 +138,10 @@
                             <div class="circle3"></div>
                         </div>
                         <div class="inpt-dev">
-                            <textarea spellcheck="false"></textarea>
+                            <code class="preview hljs" contenteditable="true" aria-label="Editor de código">
+                                function teste() {}
+                            </code>
+                            <!-- <textarea spellcheck="false"></textarea> -->
                         </div>
                     </div>
             </section>
@@ -163,7 +167,7 @@
                         <section class="setting">
                             <p>Personalização</p>
                             <div>
-                                <select>
+                                <select name="linguagem" id="linguagem" class="linguagem">
                                     <option value="javascript">JavaScript</option>
                                     <option value="html">HTML</option>
                                     <option value="css">CSS</option>
@@ -183,6 +187,8 @@
 
     <!-- Scripts -->
     <script src="./scripts/menuHamburger.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/highlight.min.js"></script>
+    <script src="scripts/highlight.js"></script>
 
 </body>
 
