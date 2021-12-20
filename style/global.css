@@ -22,6 +22,10 @@ a {
     --robotoMono: 'Roboto Mono', 'monospace';
     --fontPeso: 400;
     --menu-hamburger: #2D415B;
+    --background-roxo: #5F75E2;
+    --background-rosa: #FF6BCD;
+    --background-laranja: #FFC46B;
+    --background-verde: #9AFF6B;
 }
 
 body {
