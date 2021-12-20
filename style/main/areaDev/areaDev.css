@@ -1,4 +1,4 @@
-.inpt-dev textarea {
+.inpt-dev code {
     background-color: var(--input-cod);
     color: var(--text);
     font-family: var(--robotoMono);
