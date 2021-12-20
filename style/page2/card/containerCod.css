@@ -1,0 +1,8 @@
+.card__container-cod {
+    background-color: black;
+    width: 100%;
+    height: 352px;
+    padding: 12px;
+
+    border-radius: 8px;
+}
