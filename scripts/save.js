@@ -1,15 +1,14 @@
 var dados = []
 
-
 const save = document.querySelector('#btn-save')
 
-
-function aplicaHighlight() {
+function saveCode() {
 
     const title = document.querySelector('.title-data').value
     const description = document.querySelector('.description-data').value
     const language = document.querySelector('#linguagem').value
     const areaCodigo = document.querySelector('.inpt-dev')
+    const cor = document.getElementById('colorVal').value
 
     const cod = areaCodigo.innerText
 
@@ -18,7 +17,8 @@ function aplicaHighlight() {
             title: title,
             description: description,
             linguagen: language,
-            cod: cod
+            cod: cod,
+            cor: cor
         }
     ]
 
@@ -27,5 +27,5 @@ function aplicaHighlight() {
 }
 
 save.addEventListener('click', () => {
-    aplicaHighlight()
+    saveCode()
 })
