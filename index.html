@@ -130,7 +130,7 @@
         <div class="edit">
             
             <!-- Tela para digitar o código -->
-            <section class="fundo-codigo">
+            <section class="fundo-codigo" id="fundo-codigo">
                     <div class="container-cod">
                         <div class="circles">
                             <div class="circle1"></div>
@@ -138,9 +138,7 @@
                             <div class="circle3"></div>
                         </div>
                         <div class="inpt-dev">
-                            <code class="preview hljs" contenteditable="true" aria-label="Editor de código">
-                                function teste() {}
-                            </code>
+                            <code class="preview hljs" contenteditable="true" aria-label="Editor de código">function teste() {}</code>
                             <!-- <textarea spellcheck="false"></textarea> -->
                         </div>
                     </div>
@@ -173,7 +171,7 @@
                                     <option value="css">CSS</option>
                                 </select>
                                 <div class="borda-botao">
-                                    <button></button>
+                                    <input type="color" class="cor" id="colorVal">
                                 </div>
                             </div>
                         </section>
@@ -186,6 +184,7 @@
     </main>
 
     <!-- Scripts -->
+    <script src="scripts/inptColor.js"></script>
     <script src="./scripts/menuHamburger.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/highlight.min.js"></script>
     <script src="scripts/highlight.js"></script>
