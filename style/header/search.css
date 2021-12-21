@@ -4,7 +4,7 @@
     justify-content: end;
 }
 
-.search {
+#search {
     display: none;
     width: 100%;
     max-width: 752px;
@@ -22,7 +22,7 @@
         display: none;
     }
 
-    .search {
+    #search {
         display: block;
     }
 }
