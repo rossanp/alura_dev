@@ -26,11 +26,21 @@
         margin-bottom: 16px;
     }
 
+    .main__comunidade img {
+        background-color: var(--item-normal);
+        border-radius: 16px;
+    }
+
+    .main__comunidade img:hover {
+        background-color: var(--item-hover);
+    }
+
     .main__editor img, .main__comunidade img {
         width: 48px;
         height: 48px;
 
         margin-right: 16px;
+
     }
 
     .main__editor p, .main__comunidade p {

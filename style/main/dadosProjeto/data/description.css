@@ -1,5 +1,5 @@
 .description-data {
-    background: rgba(255, 255, 255, 0.16);
+    background: var(--inpt-normal);
     color: var(--text);
     font-family: var(--inter);
     font-weight: var(--fontPeso);
@@ -12,4 +12,8 @@
     height: 80px;
     width: 100%;
     max-width: 704px;
+}
+
+.description-data:hover {
+    background-color: var(--inpt-hover);
 }

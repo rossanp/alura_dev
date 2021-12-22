@@ -1,6 +1,5 @@
 .setting select {
-    background: rgba(255, 255, 255, 0.16);
-    opacity: 0.64;
+    background: var(--inpt-normal);
     color: var(--text);
 
     border: none;
@@ -10,6 +9,10 @@
     height: 56px;
     width: 100%;
     max-width: 344px;
+}
+
+.setting select:hover {
+    background-color: var(--inpt-hover);
 }
 
 .setting option {

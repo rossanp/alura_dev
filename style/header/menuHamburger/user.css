@@ -1,12 +1,13 @@
-.user a {
-    display: flex;
-    height: 100%;
-    width: 100%;
+.user {
+    width: max-content;
 }
 
 .user a {
     display: flex;
     align-items: center;
+
+    height: 100%;
+    padding: 12px;
 }
 
 .user img {
@@ -24,6 +25,12 @@
     color: var(--text);
     font-family: var(--inter);
     font-weight: var(--fontPeso);
+}
+
+.user:hover {
+    background-color: var(--user-hover);
+    transition: background-color 1s;
+    border-radius: 8px;
 }
 
 @media screen and ( min-width: 1200px ) {

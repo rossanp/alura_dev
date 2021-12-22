@@ -1,5 +1,5 @@
 .btn-save {
-    background-color: var(--btn-save);
+    background-color: var(--btn-filled-normal);
     font-family: var(--inter);
     font-weight: var(--fontPeso);
     color: black;
@@ -12,4 +12,18 @@
     width: 100%;
     max-width: 704px;
     height: 56px;
+    
+}
+
+.btn-save:hover {
+    background-color: var(--btn-filled-hover);
+}
+
+.btn-save:active {
+    background: var(--btn-filled-pressed);
+    border: 4px solid rgba(80, 129, 251, 0.72);
+}
+
+.btn-save:focus {
+    background: var(--btn-filled-focus);
 }

@@ -9,23 +9,50 @@ a {
 }
 
 :root {
+    /* background color */
     --background-color: #051D3B;
     --btn-highlight: rgba(80, 129, 251, 0.08);
-    --btn-save: #5081FB;
     --azul-claro: #6BD1FF;
     --input-cod: #000000;
     --circle1: #FF5F56;
     --circle2: #FFBD2E;
     --circle3: #27C93F;
+    --menu-hamburger: #2D415B;
+
+    /* input */
+    --inpt-normal: rgba(255, 255, 255, 0.16);
+    --inpt-hover: rgba(255, 255, 255, 0.24);
+    
+    /* font */
     --text: #FFFFFF;
     --inter: 'Inter', 'sans-serif';
     --robotoMono: 'Roboto Mono', 'monospace';
     --fontPeso: 400;
-    --menu-hamburger: #2D415B;
-    --background-roxo: #5F75E2;
-    --background-rosa: #FF6BCD;
-    --background-laranja: #FFC46B;
-    --background-verde: #9AFF6B;
+
+    /* buttons */
+    --btn-filled-normal: #5081FB;
+    --btn-filled-hover: #7BA4FC;
+    --btn-filled-pressed: #7BA4FC;
+    --btn-filled-focus: #96B9FD;
+    --btn-outlined-normal: rgba(80, 129, 251, 0.08);
+    --btn-outlined-hover: rgba(80, 129, 251, 0.16);
+    --btn-outlined-pressed: rgba(80, 129, 251, 0.16);
+    --btn-outlined-focus: rgba(80, 129, 251, 0.24);
+    --btn-menu-hover: rgba(80, 129, 251, 0.08);
+    --btn-menu-pressed: rgba(80, 129, 251, 0.16);
+
+    /* menu */
+    --item-normal: rgba(80, 129, 251, 0.16);
+    --item-hover: rgba(80, 129, 251, 0.64);
+    --item-pressed: #5081FB;
+
+    /* social */
+    --social-hover: rgba(255, 255, 255, 0.08);
+    --social-pressed: rgba(255, 255, 255, 0.16);
+    --social-hearth-pressed: #F65151;
+
+    /* user */
+    --user-hover: rgba(255, 255, 255, 0.08);
 }
 
 body {

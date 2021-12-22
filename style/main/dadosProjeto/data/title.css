@@ -1,5 +1,5 @@
 .title-data {
-    background: rgba(255, 255, 255, 0.16);
+    background-color: var(--inpt-normal);
     color: var(--text);
     font-family: var(--inter);
     font-weight: var(--fontPeso);
@@ -14,4 +14,8 @@
     max-width: 704px;
     display: flex;
     justify-content: center;
+}
+
+.title-data:hover {
+    background-color: var(--inpt-hover);
 }

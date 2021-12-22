@@ -2,6 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    width: max-content;
 }
 
 .container-user img {
@@ -17,6 +18,12 @@
     font-family: var(--inter);
     color: var(--text);
     font-size: var(--fontPeso);
+}
+
+.container-user:hover {
+    background-color: var(--user-hover);
+    transition: background-color ease 1s;
+    border-radius: 8px;
 }
 
 @media screen and ( max-width: 1200px) {

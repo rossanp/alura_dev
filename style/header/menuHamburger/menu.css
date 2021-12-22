@@ -11,7 +11,15 @@
 
     width: 254px;
     height: calc(100vh - 115px); /* calculo baseado no vh - 112px (80px (margin top) - 32px (padding body)) */
+}
 
+.comunidade img {
+    background-color: var(--item-normal);
+    border-radius: 16px;
+}
+
+.comunidade img:hover {
+    background-color: var(--item-hover);
 }
 
 hr {
