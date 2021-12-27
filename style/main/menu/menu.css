@@ -2,6 +2,15 @@
     display: none;
 }
 
+.main__comunidade a, .cards__main__editor a {
+    opacity: 0.56;
+}
+
+.main__comunidade a:hover, .cards__main__editor a:hover {
+    opacity: 1;
+}
+
+
 @media screen and ( min-width: 1200px ) {
     .main__menu {
         margin-top: 40px;
@@ -19,23 +28,23 @@
         margin-bottom: 14px;
     }
 
-    .main__editor a, .main__comunidade a {
+    .main__editor a, .main__comunidade a, .cards__main__editor a, .cards__main__comunidade a {
         display: flex;
         align-items: center;
 
         margin-bottom: 16px;
     }
 
-    .main__comunidade img {
+    .main__comunidade img, .cards__main__editor img {
         background-color: var(--item-normal);
         border-radius: 16px;
     }
 
-    .main__comunidade img:hover {
+    .main__comunidade img:hover, .cards__main__editor img:hover {
         background-color: var(--item-hover);
     }
 
-    .main__editor img, .main__comunidade img {
+    .main__editor img, .main__comunidade img, .cards__main__editor img, .cards__main__comunidade img {
         width: 48px;
         height: 48px;
 
@@ -43,7 +52,7 @@
 
     }
 
-    .main__editor p, .main__comunidade p {
+    .main__editor p, .main__comunidade p, .cards__main__editor p, .cards__main__comunidade p {
         font-family: var(--inter);
         color: var(--text);
         font-size: 1rem;

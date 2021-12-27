@@ -42,7 +42,7 @@ a {
     --btn-menu-pressed: rgba(80, 129, 251, 0.16);
 
     /* menu */
-    --item-normal: rgba(80, 129, 251, 0.16);
+    --item-normal: rgba(80, 129, 251, 0.64);
     --item-hover: rgba(80, 129, 251, 0.64);
     --item-pressed: #5081FB;
 
