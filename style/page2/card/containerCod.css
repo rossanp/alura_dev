@@ -1,8 +1,31 @@
 .card__container-cod {
     background-color: black;
     width: 100%;
-    height: 352px;
+    height: 100%;
     padding: 12px;
 
     border-radius: 8px;
+}
+
+.card__circles {
+    padding-bottom: 12px;
+}
+
+.card__inpt-dev code {
+    background-color: var(--input-cod);
+    color: var(--text);
+    font-family: var(--robotoMono);
+    font-weight: var(--fontPeso);
+    border: none;
+    margin-top: 24px;
+
+    max-width: 100%;
+    height: 250px;
+    resize: none;
+
+    white-space: pre-wrap;
+}
+
+code.hljs {
+    padding: 0;
 }

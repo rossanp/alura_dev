@@ -5,6 +5,8 @@ function imprimiCard() {
     let card = ""
 
     for (i = 0; i < dadosCard.length; i++) {
+        card += `<div class="card__edit">`
+        card += `<div class="card__fundo-codigo" style="background-color:${dadosCard[i].cor}">`
         card += `<div class="card__container-cod">`
         card += `<div class="circles card__circles">`
         card += `<div class="circle1"></div>`
@@ -12,9 +14,9 @@ function imprimiCard() {
         card += `<div class="circle3"></div>`
         card += `</div>`
         card += `<div class="card__inpt-dev">`
-        card += `<textarea spellcheck="false">`
+        card += `<code spellcheck="false">`
         card += dadosCard[i].cod
-        card += `</textarea>`
+        card += `</code>`
         card += `</div>`
         card += `</div>`
         card += `</div>`
@@ -42,6 +44,8 @@ function imprimiCard() {
         card += `<img src="" alt="" class="card__img-user">`
         card += `<p class="card__user-name">`
         card += `</p>`
+        card += `</div>`
+        card += `</div>`
         card += `</div>`
         card += `</div>`
 
