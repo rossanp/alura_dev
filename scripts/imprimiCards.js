@@ -24,25 +24,28 @@ function imprimiCard() {
 
         card += `<section class="card__dados">`
         card += `<div class="card__info-card">`
-        card += `<h2 class="title">`
+        card += `<h2 class="card__title">`
         card += dadosCard[i].title
         card += `</h2>`
-        card += `<p class="description">`
+        card += `<p class="card__description">`
         card += dadosCard[i].description
         card += `</p>`
         card += `</div>`
         card += `<div class="card__social">`
         card += `<div class="card__likes-comments">`
-        card += `<img src="./img/Comments.svg" alt="" class="card__comments">`
-        card += `<p class="card__n-comments">`
-        card += `</p>`
-        card += `<img src="./img/Like.svg" alt="" class="likes">`
-        card += `<p class="card__n-likes">`
-        card += `</p>`
+        card += `<div class="card__comments">`
+        card += `<img src="./img/Comments.svg" alt="Comentários"></img>`
+        card += `<p class="card__n-comments">0</p>`
+        card += `</div>`
+        card += `<div class="card__likes">`
+        card += `<img src="./img/Like.svg" alt="Likes"></img>`
+        card += `<p class="card__n-likes">0</p>`
+        card += `</div>`
         card += `</div>`
         card += `<div class="card__user">`
-        card += `<img src="" alt="" class="card__img-user">`
+        card += `<img src="https://criticalhits.com.br/wp-content/uploads/2021/11/zoro-one-piece.jpg" alt="Usuário" class="card__img-user"></img>`
         card += `<p class="card__user-name">`
+        card += `@Harry`
         card += `</p>`
         card += `</div>`
         card += `</div>`

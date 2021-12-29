@@ -1,0 +1,52 @@
+.card__social {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.card__comments, .card__likes {
+    display: flex;
+}
+
+.card__comments:hover, .card__likes:hover {
+    background-color: var(--social-hover);
+    border-radius: 16px;
+    padding: 8px;
+}
+
+.card__likes-comments {
+    display: flex;
+    width: 100%;
+}
+
+.card__likes-comments img {
+    margin: 0 8px;
+}
+
+.card__likes-comments p {
+    font-family: var(--inter);
+    font-weight: 400;
+    color: var(--text);
+
+    margin: 0 8px;
+}
+
+.card__user {
+    display: flex;
+    float: right;
+}
+
+.card__user img {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    margin: 0 8px;
+}
+
+.card__user p {
+    font-family: var(--inter);
+    font-weight: 400;
+    color: var(--text);
+
+    margin: 0 8px;
+}
