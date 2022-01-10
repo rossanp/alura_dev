@@ -32,7 +32,9 @@ function saveCode() {
             description: description,
             linguagen: language,
             cod: cod,
-            cor: cor
+            cor: cor,
+            comments: 0,
+            likes: 0
         })
 
     }

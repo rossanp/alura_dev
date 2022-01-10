@@ -36,8 +36,8 @@ function imprimiCard() {
         card += `<div class="card__social">`
         card += `<div class="card__likes-comments">`
         card += `<div class="card__comments">`
-        card += `<img src="./img/Comments.svg" alt="Comentários"></img>`
-        card += `<p class="card__n-comments">0</p>`
+        card += `<img src="./img/Comments.svg" alt="Comentários" id="addComments" onClick="addComments()"></img>`
+        card += `<p id="card__n-comments" class="card__n-comments">0</p>`
         card += `</div>`
         card += `<div class="card__likes">`
         card += `<img src="./img/Like.svg" alt="Likes"></img>`
