@@ -1,16 +1,83 @@
-const btnComments = document.querySelector('#addComments')
-let dadosCard = []
+function functionAddComments() {
 
-function addComments() {
+    let comments = document.getElementById('card__n-comments')
+    let nComments = 0
+    let dadosCard = []
+    let j = 0
+    const title = toString(document.getElementById('card__title-'+j).value)
+    
+    if (localStorage.hasOwnProperty("dadosCard")) {
+        dadosCard = JSON.parse(localStorage.getItem("dadosCard"))
+    }
 
+    for ( i = 0; i < dadosCard.length; i++ ) {
+        if (title == dadosCard[i].title) {
+            console.log("Certo")
+        } else {
+            console.log("Errado")
+        }
+    }
+
+    
+    
+
+    console.log(title)
+
+/*     for ( i = 0; i < dadosCard.length; i++ ) {
+
+
+    } */
+
+/*     
+
+    for (i=0; i < dadosCard.length; i++) {
+            if (dadosCard[i].title == title) {
+                nComments = nComments + 1
+            }
+                console.log(title)
+        }
+
+    comments.innerHTML = nComments */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* const btnComments = document.getElementById('functionAddComments')
+
+
+function functionAddComments() {
+
+    
     dadosCard = JSON.parse(localStorage.getItem("dadosCard"))
-    const nComments = document.querySelector('#card__n-comments')
+    const comments = document.querySelector('#card__n-comments')
     const nome = document.querySelector('.card__title')
+    let nComments = 0
 
-    console.log("Funfou!!")
+    
+
+    
+
+    comments.innerHTML = nComments
+    console.log(nComments)
 
 }
 
-btnComments.addEventListener('click', () => {
-    addComments()
-})
+/* btnComments.addEventListener('click', () => {
+    adcComments()
+}) */

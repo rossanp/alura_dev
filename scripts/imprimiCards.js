@@ -26,18 +26,18 @@ function imprimiCard() {
 
         card += `<section class="card__dados">`
         card += `<div class="card__info-card">`
-        card += `<h2 class="card__title">`
-        card += dadosCard[i].title
-        card += `</h2>`
-        card += `<p class="card__description">`
-        card += dadosCard[i].description
-        card += `</p>`
+        card += `<h2 class="card__title" id="card__title-${i}">${dadosCard[i].title}</h2>`
+        /* card += 
+        card += `` */
+        card += `<p class="card__description">${dadosCard[i].description}</p>`
+        /* card +=
+        card += ``  */
         card += `</div>`
         card += `<div class="card__social">`
         card += `<div class="card__likes-comments">`
-        card += `<div class="card__comments">`
-        card += `<img src="./img/Comments.svg" alt="Comentários" id="addComments" onClick="addComments()"></img>`
-        card += `<p id="card__n-comments" class="card__n-comments">0</p>`
+        card += `<div class="card__comments" onClick="functionAddComments()">`
+        card += `<img src="./img/Comments.svg" alt="Comentários"></img>`
+        card += `<p id="card__n-comments-${i}" class="card__n-comments">${dadosCard[i].comments}</p>`
         card += `</div>`
         card += `<div class="card__likes">`
         card += `<img src="./img/Like.svg" alt="Likes"></img>`
@@ -60,3 +60,7 @@ function imprimiCard() {
 }
 
 window.addEventListener("load", imprimiCard)
+
+/*  onClick="adcComments()"
+
+ */
