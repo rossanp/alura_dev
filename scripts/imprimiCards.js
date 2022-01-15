@@ -39,9 +39,9 @@ function imprimiCard() {
         card += `<img src="./img/Comments.svg" alt="Comentários"></img>`
         card += `<p id="card__n-comments-${i}" class="card__n-comments">${dadosCard[i].comments}</p>`
         card += `</div>`
-        card += `<div class="card__likes">`
+        card += `<div class="card__likes" onclick="addLikes(${i})">`
         card += `<img src="./img/Like.svg" alt="Likes"></img>`
-        card += `<p class="card__n-likes">0</p>`
+        card += `<p class="card__n-likes" id="card_like-${i}">0</p>`
         card += `</div>`
         card += `</div>`
         card += `<div class="card__user">`

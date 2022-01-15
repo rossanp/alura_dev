@@ -40,6 +40,14 @@ function functionAddComments() {
     comments.innerHTML = nComments */
 }
 
+function addLikes(indexElement) {
+    const likeElement = document.querySelector("#card_like-"+indexElement);
+
+    if (likeElement.innerHTML) {
+        const count = parseInt(likeElement.innerHTML);
+        likeElement.innerHTML = count + 1;
+    }
+}
 
 
 
