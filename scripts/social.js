@@ -4,7 +4,7 @@ function functionAddComments() {
     let nComments = 0
     let dadosCard = []
     let j = 0
-    const title = toString(document.getElementById('card__title-'+j).value)
+    const title = document.getElementById('card__title-'+j)
     
     if (localStorage.hasOwnProperty("dadosCard")) {
         dadosCard = JSON.parse(localStorage.getItem("dadosCard"))
@@ -21,7 +21,7 @@ function functionAddComments() {
     
     
 
-    console.log(title)
+    console.log(typeof document.getElementById('card__title-0'.value))
 
 /*     for ( i = 0; i < dadosCard.length; i++ ) {
 
