@@ -35,13 +35,13 @@ function imprimiCard() {
         card += `</div>`
         card += `<div class="card__social">`
         card += `<div class="card__likes-comments">`
-        card += `<div class="card__comments" onClick="functionAddComments()">`
+        card += `<div class="card__comments" onClick="addComments(${i})">`
         card += `<img src="./img/Comments.svg" alt="Comentários"></img>`
-        card += `<p id="card__n-comments-${i}" class="card__n-comments">${dadosCard[i].comments}</p>`
+        card += `<p id="card_comments-${i}" class="card__n-comments">${dadosCard[i].comments}</p>`
         card += `</div>`
         card += `<div class="card__likes" onclick="addLikes(${i})">`
         card += `<img src="./img/Like.svg" alt="Likes"></img>`
-        card += `<p class="card__n-likes" id="card_like-${i}">0</p>`
+        card += `<p class="card__n-likes" id="card_like-${i}">${dadosCard[i].likes}</p>`
         card += `</div>`
         card += `</div>`
         card += `<div class="card__user">`

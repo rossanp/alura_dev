@@ -1,91 +1,45 @@
-function functionAddComments() {
+function addLikes(i) {
+    const likeElement = document.querySelector("#card_like-"+i);
+    let dadosCard = [];
 
-    let comments = document.getElementById('card__n-comments')
-    let nComments = 0
-    let dadosCard = []
-    let j = 0
-    const title = document.getElementById('card__title-'+j)
-    
     if (localStorage.hasOwnProperty("dadosCard")) {
-        dadosCard = JSON.parse(localStorage.getItem("dadosCard"))
+        dadosCard = JSON.parse(localStorage.getItem("dadosCard"));
     }
 
-    for ( i = 0; i < dadosCard.length; i++ ) {
-        if (title == dadosCard[i].title) {
-            console.log("Certo")
-        } else {
-            console.log("Errado")
-        }
-    }
-
-    
-    
-
-    console.log(typeof document.getElementById('card__title-0'.value))
-
-/*     for ( i = 0; i < dadosCard.length; i++ ) {
-
-
-    } */
-
-/*     
-
-    for (i=0; i < dadosCard.length; i++) {
-            if (dadosCard[i].title == title) {
-                nComments = nComments + 1
-            }
-                console.log(title)
-        }
-
-    comments.innerHTML = nComments */
-}
-
-function addLikes(indexElement) {
-    const likeElement = document.querySelector("#card_like-"+indexElement);
+    let like = dadosCard[i].likes;
 
     if (likeElement.innerHTML) {
         const count = parseInt(likeElement.innerHTML);
         likeElement.innerHTML = count + 1;
+        like = count + 1;
     }
+
+    dadosCard[i].likes= like
+
+    localStorage.setItem("dadosCard", JSON.stringify(dadosCard));
+
+    console.log(dadosCard[i]);
 }
 
+function addComments(i) {
+    const commentsElement = document.querySelector("#card_comments-"+i);
+    let dadosCard = [];
 
+    if (localStorage.hasOwnProperty("dadosCard")) {
+        dadosCard = JSON.parse(localStorage.getItem("dadosCard"));
+    }
 
+    let comments = dadosCard[i].comments;
 
+    if (commentsElement.innerHTML) {
+        const count = parseInt(commentsElement.innerHTML);
+        commentsElement.innerHTML = count + 1;
+        comments = count + 1;
+    }
 
+    dadosCard[i].comments= comments
 
+    localStorage.setItem("dadosCard", JSON.stringify(dadosCard));
 
-
-
-
-
-
-
-
-
-
-
-
-/* const btnComments = document.getElementById('functionAddComments')
-
-
-function functionAddComments() {
-
-    
-    dadosCard = JSON.parse(localStorage.getItem("dadosCard"))
-    const comments = document.querySelector('#card__n-comments')
-    const nome = document.querySelector('.card__title')
-    let nComments = 0
-
-    
-
-    
-
-    comments.innerHTML = nComments
-    console.log(nComments)
-
+    console.log(dadosCard[i]);
 }
-
-/* btnComments.addEventListener('click', () => {
-    adcComments()
-}) */
