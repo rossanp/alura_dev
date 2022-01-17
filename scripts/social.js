@@ -6,8 +6,10 @@ function addLikes(i) {
         dadosCard = JSON.parse(localStorage.getItem("dadosCard"));
     }
 
+    /* Definindo uma variável com a quantidade de itens no array salvo */
     let like = dadosCard[i].likes;
 
+    /* Iterando a quantidade de cliques com os salvos no array */
     if (likeElement.innerHTML) {
         const count = parseInt(likeElement.innerHTML);
         likeElement.innerHTML = count + 1;
