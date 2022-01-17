@@ -6,12 +6,12 @@
 
 .card__comments, .card__likes {
     display: flex;
+    padding: 8px;
 }
 
 .card__comments:hover, .card__likes:hover {
     background-color: var(--social-hover);
     border-radius: 16px;
-    padding: 8px;
 }
 
 .card__likes-comments {
